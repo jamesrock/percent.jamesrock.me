@@ -1,0 +1,100 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: arial, sans-serif;
+	line-height: 1.5;
+	color: #222;
+	text-align: center;
+	background-color: #D0D0D0;
+	padding: 10px;
+}
+
+label {
+	cursor: pointer;
+}
+
+a {
+	color: #FFF;
+}
+
+form {
+	width: 400px;
+	background-color: #FFF;
+	min-width: 300px;
+}
+
+input[type="number"],
+input[type="text"] {
+	font-size: 125%;
+	padding: 5px 10px;
+	font-family: consolas, monospace;
+	border: 0;
+	color: inherit;
+	text-align: center;
+}
+
+input[type="submit"] {
+	padding: 10px 20px;
+	border: solid 1px #2389EF;
+	cursor: pointer;
+	background-color: #2389EF;
+	text-decoration: none;
+	color: #FFF;
+	outline: none;
+	font-size: 100%;
+	font-family: inherit;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+}
+
+input[type="submit"]:hover {
+	opacity: 0.7;
+}
+
+.page-head {
+	background-color: #808080;
+	color: #FFF;
+}
+
+.page-head-head {
+	padding: 25px;
+	padding-bottom: 10px;
+}
+
+.page-head-head input[type="number"] {
+	margin: 2px;
+	color: #222;
+}
+
+.page-head-body {
+	margin-bottom: 15px;
+}
+
+.page-head-foot {
+	background-color: #FFF;
+}
+
+.page-body {
+	padding: 15px 0;
+}
+
+.question {
+	padding: 5px 20px;
+}
+
+@media (max-width: 420px) {
+
+	form {
+		width: auto;
+	}
+
+	body {
+		padding: 0;
+		background-color: #FFF;
+	}
+
+}

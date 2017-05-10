@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+		<title>Percentage Calculator</title>
+		<link href="/css/app.css" rel="stylesheet">
+	</head>
+	<body>
+
+		<form>
+
+			<div class="page-head">
+
+				<div class="page-head-head">
+
+					<div>
+						<input type="number" id="input-01" value="75">
+					</div>
+					<div>
+						<input type="number" id="input-02" value="350">
+					</div>
+
+				</div>
+
+				<div class="page-head-body">
+
+					<div>
+						<a href="#" title="Switch values" id="switch-button">Switch values</a>
+					</div>
+					<div>
+						<input type="checkbox" id="checkbox-01" checked="checked" tabindex="-1">
+						<label for="checkbox-01">Round to hundredth</label>
+					</div>
+
+				</div>
+
+				<div class="page-head-foot">
+					<input type="submit" id="button-01" value="GET ANSWERS" tabindex="-1">
+				</div>
+
+			</div>
+
+			<div class="page-body">
+
+				<div class="question" title="What is X percent of Y?">
+					<div>
+						<label for="answer-01">What is <em id="answer-01-X">X</em> percent of <em id="answer-01-Y">Y</em>?</label>
+					</div>
+					<div>
+						<input type="text" id="answer-01" readonly="readonly">
+					</div>
+				</div>
+
+				<div class="question" title="What is X as a percentage of Y?">
+					<div>
+						<label for="answer-02">What is <em id="answer-02-X">X</em> as a percentage of <em id="answer-02-Y">Y</em>?</label>
+					</div>
+					<div>
+						<input type="text" id="answer-02" readonly="readonly">
+					</div>
+				</div>
+
+				<div class="question" title="What is the difference of X and Y as a percentage?">
+					<div>
+						<label for="answer-03">What is the difference of <em id="answer-03-X">X</em> and <em id="answer-03-Y">Y</em> as a percentage?</label>
+					</div>
+					<div>
+						<input type="text" id="answer-03" readonly="readonly">
+					</div>
+				</div>
+
+				<div class="question" title="What is X plus Y percent?">
+					<div>
+						<label for="answer-04">What is <em id="answer-04-X">X</em> plus <em id="answer-04-Y">Y</em> percent?</label>
+					</div>
+					<div>
+						<input type="text" id="answer-04" readonly="readonly">
+					</div>
+				</div>
+
+				<div class="question" title="What is X minus Y percent?">
+					<div>
+						<label for="answer-05">What is <em id="answer-05-X">X</em> minus <em id="answer-05-Y">Y</em> percent?</label>
+					</div>
+					<div>
+						<input type="text" id="answer-05" readonly="readonly">
+					</div>
+				</div>
+
+			</div>
+
+		</form>
+
+		<script src="http://js.jamesrock.me/jquery.js"></script>
+		<script src="http://js.jamesrock.me/ROCK-2.0.js"></script>
+		<script src="/js/app.js"></script>
+
+	</body>
+</html>
